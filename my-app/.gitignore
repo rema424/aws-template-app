@@ -20,3 +20,6 @@ dist
 
 # dotenv environment variables file
 .env
+
+# others
+tmp

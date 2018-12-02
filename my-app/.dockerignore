@@ -1,0 +1,6 @@
+.vscode
+.gitignore
+.prettierrc*
+docker-compose.yml
+README.md
+tmp
