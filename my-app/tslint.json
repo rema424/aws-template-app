@@ -1,9 +1,25 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended"
+  "extends": ["tslint-config-airbnb", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "semi": true,
+        "singleQuote": true,
+        "printWidth": 100,
+        "bracketSpacing": true,
+        "arrowParens": "avoid",
+        "parser": "typescript",
+        "endOfLine": "lf"
+      }
     ],
-    "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+    "no-console": false,
+    "no-relative-imports": false,
+    "no-http-string": false,
+    "no-backbone-get-set-outside-model": false,
+    "export-name": false
+  }
 }
