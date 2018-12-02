@@ -1,17 +1,14 @@
 {
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "editor.tabSize": 2,
-    "explorer.confirmDelete": false,
-    "markdown.preview.breaks": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "editor.formatOnSave": true,
-    // "prettier.printWidth": 100,
-    // "prettier.singleQuote": true,
-    "tslint.run": "onSave",
-    // "prettier.trailingComma": "es5",
-    "prettier.tslintIntegration": true,
-    "prettier.tabWidth": 2
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "markdown.preview.breaks": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.formatOnSave": true,
+  "tslint.run": "onSave",
+  "prettier.tslintIntegration": true,
+  "prettier.tabWidth": 2
 }

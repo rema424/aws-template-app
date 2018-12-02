@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    // Git log
+    "donjayamanne.githistory",
+    // Git blame
+    "eamodio.gitlens",
+    // tslint
+    "eg2.tslint",
+    // prettier
+    "esbenp.prettier-vscode",
+    // dotenv
+    "mikestead.dotenv",
+    // language
+    "MS-CEINTL.vscode-language-pack-ja",
+    // docker
+    "PeterJausovec.vscode-docker"
+  ]
+}

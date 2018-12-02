@@ -87,9 +87,14 @@ touch src/app.ts src/server.ts
 - [ESLint 導入環境に prettier を追加して運用する](https://www.kken.io/posts/prettier-eslint/)
 - [TypeScript のリンター（TSLint）の設置](https://qiita.com/Kitanotori/items/118a09db97dfd8d37b04)
 
+### VScode
+
+- [プロジェクトで使う VSCode 拡張機能の導入を推奨する方法](http://neos21.hatenablog.com/entry/2018/04/30/080000)
+
 ### Others
 
 - [# CommonJS と ES6 の import/export で迷うなら](https://qiita.com/rooooomania/items/4c999d93ae745e9d8657)
 - [docker-compose(Docker for mac)で実践的な node.js 開発環境を作る](https://qiita.com/devalon/items/dd0fdce02156855b5df5)
 - [npm module に typescript の型定義がない時に、とりあえずビルドが通るようにする](https://medium.com/@ryutamaki/npm-module-%E3%81%AB-typescript-%E3%81%AE%E5%9E%8B%E5%AE%9A%E7%BE%A9%E3%81%8C%E3%81%AA%E3%81%84%E6%99%82%E3%81%AB-%E3%81%A8%E3%82%8A%E3%81%82%E3%81%88%E3%81%9A%E3%83%93%E3%83%AB%E3%83%89%E3%81%8C%E9%80%9A%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B-fcc090804b21)
 - [Docker で必要十分な Nodejs+PostgreSQL の環境を作る方法]()
+- [1 ファイル・3 コマンドで実現！Docker でチーム全員の開発環境の構築を始めてみませんか？](https://nulab-inc.com/ja/blog/typetalk/docker-tutorial-local-environment-team/)
