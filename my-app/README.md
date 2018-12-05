@@ -73,7 +73,6 @@ touch Dockerfile docker-compose.yaml .dockerignore
 
 - [TypeScript Node Starter](https://github.com/Microsoft/TypeScript-Node-Starter#typescript-node-starter)
 - [Hackathon Starter](https://github.com/sahat/hackathon-starter)
-- [Node.js を TypeScript で書く](https://www.sambaiz.net/article/123/)
 - [[Node.js] Express を TypeScript で書く - 環境整備まで](https://qiita.com/kuroneko8960/items/74347b6a58020f33b18d)
 - [express-generator で生成したテンプレートプロジェクトを TypeScript 実装に置換](https://qiita.com/uwettie/items/2870050c266f89f0ed38)
 - [Setting up Express with Typescript](https://codebrains.io/setting-up-express-with-typescript/)
@@ -107,6 +106,15 @@ touch Dockerfile docker-compose.yaml .dockerignore
 - [Dockerfile で日本語ロケールを設定する方法。およびロケールエラーの回避方法。](https://qiita.com/YuukiMiyoshi/items/f389ea366060537b5cd9)
 - [CentOS 7 コンテナに消えない日本語ロケールを追加する](https://qiita.com/teruo-oshida/items/08cb84efc2b581b0a439)
 - [docker で起動している PostgreSQL のタイムゾーンを設定する](https://qiita.com/reoring/items/9e87176d73675e5fdafa)
+
+### DB
+
+- [Node.js の Sequelize で DB の migration を実行する](https://qiita.com/cobot00/items/0bc0da1095e09bcd0d5f)
+- [Node.js を TypeScript で書く](https://www.sambaiz.net/article/123/)
+- [Node.js を使った Migration 機能を使ってみた](https://qiita.com/Kurowasi/items/61600235a9552daa5c28)
+- [Node.js で MySQL の Migration をする](https://qiita.com/tiwu_official/items/77b60ac9efa15142468d)
+- [[node.js] db-migrate でマイグレーションを行う方法](https://workout-engineer.com/node-migrate/)
+- [【Node.js】 Jest + Sequelizeでマイグレーションしつつ、Modelをテストする](https://programmagick.com/blog?slug=node_jest_sequelize_testing)
 
 ### Others
 
