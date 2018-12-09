@@ -1,0 +1,42 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "## Set up project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "dev": "node ./dist/server.js",
+    "compile": "tsc",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json",
+    "lint": "tslint --config tslint.json --project tsconfig.json --type-check 'src/**/*.ts'",
+    "lint-format": "tslint --fix --project tsconfig.json 'src/**/*.ts'",
+    "test": "jest",
+    "build": "npm run lint && npm run compile",
+    "package": "zip -r artifact.zip dist node_modules -x *.ts *.md *.map */txt package.json"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws4": "^1.5.1",
+    "@types/node": "^10.12.12"
+  },
+  "dependencies": {
+    "aws4": "^1.8.0",
+    "axios": "^0.18.0"
+  }
+}
