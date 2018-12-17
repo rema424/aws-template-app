@@ -1,0 +1,17 @@
+{
+  "message": "this is staging.json",
+  "log4js": {
+    "appenders": {
+      "application": {
+        "type": "dateFile",
+        "filename": "logs/application.log"
+      }
+    },
+    "categories": {
+      "default": {
+        "appenders": ["application"],
+        "level": "WARN"
+      }
+    }
+  }
+}

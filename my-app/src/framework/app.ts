@@ -3,7 +3,7 @@
  */
 import * as bodyParser from 'body-parser';
 import express from 'express';
-import * as MainController from './controllers/MainController';
+import * as SampleController from '../controller/SampleController';
 
 /**
  *  Express app
@@ -33,8 +33,8 @@ export class MyExpress {
    * app.METHOD(PATH, HANDLER)
    */
   private routes(): void {
-    this.app.get('/', MainController.index);
-    this.app.get('/:userId', MainController.get);
+    this.app.get('/', SampleController.index);
+    this.app.get('/:userId', SampleController.get);
   }
 }
 
